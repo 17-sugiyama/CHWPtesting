@@ -1,9 +1,11 @@
 # path to L2 HK directory
-data_dir: '/mnt/so1/data/pton-tsat/hk'
+#data_dir: '/so/data/satp1/hk/'
+data_dir: '/so/level2-daq/satp1/hk'
 # path to output directory
 output_dir: './'
 # prefix of field name
-field_instance: 'observatory.HBA1.feeds.HWPEncoder'
+field_instance: 'satp1.hwp-bbb-e1.feeds.HWPEncoder'
+field_instance_sub: 'satp1.hwp-bbb-e2.feeds.HWPEncoder'
 # name list of HWP_encoder field variable
 field_list:
 - 'rising_edge_count'
